@@ -1,5 +1,6 @@
 puts "Programa 01\n--"
 idade = 24
+
 =begin
 #idade = "24" # a linha 12 imprime 'String' caso esta não esteja comentada 
 #multiplicador = "2"
@@ -42,6 +43,8 @@ puts plural("Carro")
 
 
 #puts plural(2) # imprime '2s'
+
+#puts "Caneta".plural # imprime erro
 =end
 
 # parei na página 23
