@@ -22,3 +22,5 @@ puts "Digite um número inteiro: "
 numero = gets.chomp.to_f
 
 puts "Numero inteiro convertido para real: " + (numero * 1.10).to_s
+
+# testando git no outro pc kkkk
