@@ -20,18 +20,19 @@ class String
   end
 end
 
-puts 'Caneta'.plural # Canetas
-puts 'Carro'.plural # Carros
+puts "Caneta".plural # Canetas
+puts "Carro".plural # Carros
 # puts 2.plural # imprime erro, pois dessa vez estamos realmente
 # manipulando um metodo dentro de classe de tipo String
-puts '2'.plural # imprime '2s'
-puts '3.14'.plural # imprime '3.14s'
+puts "2".plural # imprime '2s'
+puts "3.14".plural # imprime '3.14s'
 
-# def plural(palavra) # definindo metodo plural()
-#  "#{palavra}s" # toda palavra que for digitada, sera adicionado s no final
+def plural(palavra) # definindo metodo plural()
+  "#{palavra}s" # toda palavra que for digitada, sera adicionado s no final
+end
 
-puts plural('Caneta') # chamando o metodo plural com os parametros
-puts plural('Carro')
+puts plural("Caneta") # chamando o metodo plural com os parametros
+puts plural("Carro")
 
 # interessante que nao precisei dizer que plural recebera uma String...
 # vou tentar fazer um teste abaixo
