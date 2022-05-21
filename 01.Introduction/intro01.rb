@@ -1,6 +1,7 @@
 3.times { print "Ruby! " }
-
+puts "\n"
 1.upto(9) { |x| print x }
+puts "\n"
 
 class Paises
   @paises = ["Argentina", "Brasil", "Paraguai", "Uruguai"]
@@ -14,3 +15,5 @@ end
 Paises.each do |pais| # yield lá no bloco em cima é como se fosse um 'garçom' pra essa instrução aqui kkkkk
   puts "\nHello, #{pais}!"
 end
+
+# Livro do Matz, pagina 17
