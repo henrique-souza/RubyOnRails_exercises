@@ -41,4 +41,4 @@ puts plural("Carro")
 
 # puts "Caneta".plural # imprime erro
 
-# parei na pagina 23
+# parei na pagina 23 do livro do Lucas Souza 
