@@ -11,6 +11,6 @@ class Paises
   end
 end
 
-Paises.each do |pais|
+Paises.each do |pais| # yield lá no bloco em cima é como se fosse um 'garçom' pra essa instrução aqui kkkkk
   puts "\nHello, #{pais}!"
 end
