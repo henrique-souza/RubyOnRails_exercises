@@ -1,6 +1,6 @@
 3.times { print "Ruby! " }
 puts "\n"
-1.upto(9) { |x| print x }
+1.upto(9) { |listOfNumbers| print listOfNumbers }
 puts "\n"
 
 class Paises
