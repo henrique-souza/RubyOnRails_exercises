@@ -1,4 +1,4 @@
-puts "Digite um número: "
+print "Digite um número: "
 
 number = gets.chomp.to_i # pega o número digitado e converte para Integer
 
