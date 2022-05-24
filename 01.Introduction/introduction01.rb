@@ -1,6 +1,6 @@
 3.times { print "Ruby! " }
 puts "\n"
-1.upto(9) { |listOfNumbers| print listOfNumbers }
+1.upto(9) { |listOfNumbers| print listOfNumbers } # listOfNumbers está dentro de um bloco
 puts "\n"
 
 class Paises
@@ -12,8 +12,10 @@ class Paises
   end
 end
 
-Paises.each do |pais| # yield lá no bloco em cima é como se fosse um 'garçom' pra essa instrução aqui kkkkk
+Paises.each do |pais| # yield é como se fosse um 'garçom' para o 'bloco de países'
   puts "\nHello, #{pais}!"
 end
 
-# Livro do Matz, pagina 17
+# digitar | | seria um bloco
+
+
