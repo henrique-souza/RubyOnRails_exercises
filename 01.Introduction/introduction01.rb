@@ -7,15 +7,13 @@ class Paises
   @paises = ["Argentina", "Brasil", "Paraguai", "Uruguai"]
   def self.each
     for pais in @paises
-      yield pais # 'yield' passa os atributos de Paises dentro do bloco de código
+      yield pais # 'yield' lê os atributos de Paises
     end
   end
 end
 
-Paises.each do |pais| # yield é como se fosse um 'garçom' para o 'bloco de países'
-  puts "\nHello, #{pais}!"
-end
-
 # digitar | | seria um bloco
 
-
+Paises.each do |pais| # yield é como se fosse um 'garçom' para o 'bloco de países' |pais|
+  puts "\nHello, #{pais}!"
+end
