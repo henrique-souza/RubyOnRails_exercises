@@ -46,3 +46,14 @@ when 13..18
 else
   puts "Adulto"
 end
+puts "\n"
+
+puts "Programa 04\n"
+
+gender = "F"
+# Estrutura Condicional Ternária
+gender == "M" ? (puts "Masculino") : (puts "Feminino") # imprime Feminino
+
+# é tipo
+#     if       <true ou false>       else    <true ou false>
+# <condição> ? <verdadeiro ou falso>  :    <verdadeiro ou falso>
