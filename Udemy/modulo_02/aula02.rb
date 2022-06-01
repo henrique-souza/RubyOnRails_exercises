@@ -51,7 +51,7 @@ puts "\n"
 puts "Programa 04\n"
 
 gender = "F"
-# Estrutura Condicional Ternária
+# Estrutura Condicional Ternária 
 gender == "M" ? (puts "Masculino") : (puts "Feminino") # imprime Feminino
 
 # é tipo
