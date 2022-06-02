@@ -9,6 +9,6 @@ while listaDeNumeros != 100
   elsif listaDeNumeros > 50
     puts "teste 2"
   else
-    break
+    breaks
   end
 end
