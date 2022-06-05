@@ -4,11 +4,13 @@
 
 listaDeNumeros = Random.rand(0..101) #verificar se tá funcionando como esperado
 
-while listaDeNumeros != 100
+numeroQualquer = 5.to_enum
+
+while numeroQualquer != listaDeNumeros
   puts listaDeNumeros
-  if listaDeNumeros <= 50
+  if listaDeNumeros = numeroQualquer
     puts "teste"
-  elsif listaDeNumeros >= 50
+  elsif listaDeNumeros > numeroQualquer
     puts "teste 2"
   else
     breaks
