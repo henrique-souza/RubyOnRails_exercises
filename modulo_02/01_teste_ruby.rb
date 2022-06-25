@@ -6,12 +6,12 @@ puts inteiro.class
 real = 2.8
 puts real.class
 
-caracteres = "conjunto de caracteres"
+caracteres = "Conjunto de caracteres"
 puts caracteres.class
 
-puts("Digite alguma coisa: ")
+puts "Digite alguma coisa: "
 algumaCoisa = gets
-puts("Digite outra coisa: ")
+puts "Digite outra coisa: "
 outraCoisa = gets.chomp # é usado para extrair formatações predeterminadas
 puts algumaCoisa
 puts algumaCoisa.inspect # imprime "caractere\n"
