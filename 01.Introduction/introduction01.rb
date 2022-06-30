@@ -27,3 +27,19 @@ puts "\n\n"
 ('a'..'d').each do |contador|
   puts "interação #{contador}"
 end
+
+puts "\n\n"
+
+def descending_order(n)
+    n.digits
+end
+
+puts "\n\n"
+
+p descending_order(123456789)
+
+def dobrar(x)
+  x * 2
+end
+
+puts dobrar(2)
