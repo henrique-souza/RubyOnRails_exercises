@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'Olá, curso de Rails'
 
 inteiro = 1

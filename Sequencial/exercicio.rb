@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # tentar fazer um código pra poder levar pra aula e analisar
 
 # lista_de_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].to_h
