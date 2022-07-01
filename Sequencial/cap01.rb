@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts "Programa 01\n--"
 idade = 24
 
@@ -14,25 +16,27 @@ puts "\n"
 
 puts "Programa 02\n--"
 
+# definindo Classe String
 class String
   def plural
     "#{self}s"
   end
 end
 
-puts "Caneta".plural # Canetas
-puts "Carro".plural # Carros
+puts 'Caneta'.plural # Canetas
+puts 'Carro'.plural # Carros
 # puts 2.plural # imprime erro, pois dessa vez estamos realmente
 # manipulando um metodo dentro de classe de tipo String
-puts "2".plural # imprime '2s'
-puts "3.14".plural # imprime '3.14s'
+puts '2'.plural # imprime '2s'
+puts '3.14'.plural # imprime '3.14s'
 
-def plural(palavra) # definindo metodo plural()
+# definindo metodo plural()
+def plural(palavra)
   "#{palavra}s" # toda palavra que for digitada, sera adicionado s no final
 end
 
-puts plural("Caneta") # chamando o metodo plural com os parametros
-puts plural("Carro")
+puts plural('Caneta') # chamando o metodo plural com os parametros
+puts plural('Carro')
 
 # interessante que nao precisei dizer que plural recebera uma String...
 # vou tentar fazer um teste abaixo
@@ -41,4 +45,4 @@ puts plural("Carro")
 
 # puts "Caneta".plural # imprime erro
 
-# parei na pagina 23 do livro do Lucas Souza 
+# parei na pagina 23 do livro do Lucas Souza
