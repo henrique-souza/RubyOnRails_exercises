@@ -1,3 +1,16 @@
+# frozen_string_literal: true
+
+# Esse cara acima tem a ver com alocação de memória.
+# e se caso eu queria modificar uma string literalmente, por exemplo:
+#
+# name = 'Henrique'
+# name << 'Souza'
+#
+# Será gerado uma exceção porque as strings literais estão 'congeladas'
+# e não poderiam ser modificadas.
+#
+# Não faço ideia do porque usar isso nesse momento, mas simbora continuar os estudos.
+
 puts "Programa 01\n"
 
 print 'Digite um número: '
@@ -53,5 +66,5 @@ gender = 'F'
 gender == 'M' ? (puts 'Masculino') : (puts 'Feminino') # imprime Feminino
 
 # é tipo
-#     if       <true ou false>       else    <true ou false>
+#     if      ? <true ou false>       else(:)    <true ou false>
 # <condição> ? <verdadeiro ou falso>  :    <verdadeiro ou falso>
