@@ -1,4 +1,4 @@
-# Depois de falhar a linha 33, vamos escrever a linha abaixo:
+# Depois de falhar a linha 42, vamos escrever a linha abaixo:
 class Stack
   # sem parametros ou metodos, vamos usar o rspec stack_spec.rb para testar, então:
   # irá falhar por falta do método push()
@@ -8,11 +8,13 @@ class Stack
     @elements = []
     # depois do teste passar, refatorando...
     # @last_element_index = -1
+    # @first_element_index = 2
   end
 
   def push(element)
     @elements << element
     # @last_element_index += 1
+    # @first_element_index -= 1
   end
   # irá falhar por falta do método top()
 
@@ -25,7 +27,8 @@ class Stack
 
   # desafio passou sem falhas.
   def pop
-    @elements.first
+    # @elements[@first_element_index]
+    @elements.first # Refatoração do desafio
   end
 end
 
