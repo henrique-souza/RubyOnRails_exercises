@@ -1,4 +1,6 @@
-# Depois de falhar a linha 42, vamos escrever a linha abaixo:
+# frozen_string_literal: true
+
+# Depois de falhar a linha 43, vamos escrever a linha abaixo:
 class Stack
   # sem parametros ou metodos, vamos usar o rspec stack_spec.rb para testar, então:
   # irá falhar por falta do método push()
