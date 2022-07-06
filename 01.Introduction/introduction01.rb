@@ -31,11 +31,12 @@ end
 
 puts "\n\n"
 
-def descending_order(_numbers)
-  _numbers.sort_by { |numbers| print numbers }.reverse
+# Codewars solution
+def descending_order(numbers)
+  numbers.to_s.split('').sort_by { |number| number }.join('').reverse.to_i
 end
 
-p descending_order(1.upto(9))
+print descending_order('123456789') # => 987654321
 
 puts "\n\n"
 
