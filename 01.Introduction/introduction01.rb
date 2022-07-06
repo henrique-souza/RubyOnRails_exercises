@@ -33,10 +33,11 @@ puts "\n\n"
 
 # Codewars solution
 def descending_order(numbers)
-  numbers.to_s.split('').sort_by { |number| number }.join('').reverse.to_i
+  # numbers.to_s.split('').sort_by { |number| number }.join('').reverse.to_i
+  numbers.to_s.chars.sort.reverse.join.to_i # refatoração
 end
 
-print descending_order('123456789') # => 987654321
+print descending_order(123_456_789) # => 987654321
 
 puts "\n\n"
 
