@@ -39,6 +39,7 @@ end
 # rspec --format documentation <name file>.rb
 #
 # É responsável por formatar o RSpec de forma estruturada
+# Adicionei esse comando toda vez que for executado o rspec ao ".rspec", mais fácil.
 
 RSpec.describe Stack do
   describe '#push' do
