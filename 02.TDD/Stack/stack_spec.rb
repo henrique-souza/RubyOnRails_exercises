@@ -62,4 +62,4 @@ RSpec.describe Stack do
     end
   end
 end
-# parei na pagina 41 de 418
+# parei na pagina 44 de 418
