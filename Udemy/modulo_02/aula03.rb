@@ -19,7 +19,7 @@ puts "\n"
 
 puts "Programa 03\n"
 
-array = [1,3,567,123,57,136]
+array = [1, 3, 567, 123, 57, 136]
 
 array.each do |numbers_array|
   puts numbers_array
