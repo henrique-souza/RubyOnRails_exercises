@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Aula 13, 14, 15
+# Aula 15
 puts "Programa 01\n"
 
 (0..9).each do |numbers|
@@ -24,5 +24,27 @@ array = [1, 3, 567, 123, 57, 136]
 array.each do |numbers_array|
   puts numbers_array
 end
+
+puts "\n"
+
+puts "Programa 04\n"
+
+array2 = [] # same thing as 'Array.new'
+array2.push(1.6)
+array2.push('Henrique')
+array2.push(6)
+array2.push('*')
+
+array2.each do |elements_array2|
+  puts elements_array2
+end
+puts "\n"
+
+puts array2[0]
+puts array2[3]
+
+string = 'Henrique'
+
+puts string[3..5] # => 'riq'
 
 puts "\n"
