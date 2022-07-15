@@ -38,6 +38,7 @@ array2.push('*')
 array2.each do |elements_array2|
   puts elements_array2
 end
+
 puts "\n"
 
 puts array2[0]
@@ -46,5 +47,19 @@ puts array2[3]
 string = 'Henrique'
 
 puts string[3..5] # => 'riq'
+
+puts "\n"
+
+puts "Programa 05\n"
+
+nested_array = [[1, 2, 3], %w[a b c], %w[! @ # $], [1.1, 1.2, 1.3]]
+
+# nested_array.each do |extern|
+#   extern.each do |intern|
+#     puts intern
+#   end
+# end
+
+nested_array.each { |elements_in_nested_array| puts elements_in_nested_array } # Refactoring
 
 puts "\n"
