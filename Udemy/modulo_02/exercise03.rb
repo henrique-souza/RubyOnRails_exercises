@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# Aula 15
 puts "Programa 01\n"
 
 (0..9).each do |numbers|
