@@ -60,6 +60,10 @@ nested_array = [[1, 2, 3], %w[a b c], %w[! @ # $], [1.1, 1.2, 1.3]]
 #   end
 # end
 
+# the variable 'extern' has been used to read each elemnt in the first []
+# after that, 'extern.each' read the interns elements of the nested array
+
+# the instructions below do the same thing with just one line, no more five
 nested_array.each { |elements_in_nested_array| puts elements_in_nested_array } # Refactoring
 
 puts "\n"
