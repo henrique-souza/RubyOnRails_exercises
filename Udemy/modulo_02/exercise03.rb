@@ -59,6 +59,8 @@ nested_array = [[1, 2, 3], %w[a b c], %w[! @ # $], [1.1, 1.2, 1.3]]
 #   end
 # end
 
+print nested_array[0] # => [1, 2, 3]
+
 # the variable 'extern' has been used to read each elemnt in the first []
 # after that, 'extern.each' read the interns elements of the nested array
 
