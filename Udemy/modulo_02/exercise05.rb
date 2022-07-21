@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-name1 = "Ruby"
+name1 = 'Ruby'
 name2 = "Henrique #{name1}" # or "Henrique " + name1
 # to use ' "Henrique " << name1 ' the frozen string needs to be disabled (or 'false')
 # Example below
