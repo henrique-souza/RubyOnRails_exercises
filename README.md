@@ -9,6 +9,11 @@
 
 > [FUENTES, Vinícius Baggio. **Ruby on Rails. Coloque Sua Aplicação Web nos Trilhos**. Casa do Código, 2012.](https://github.com/free-educa/books/blob/main/books/Ruby%20on%20Rails%20-%20coloque%20sua%20aplicacao%20web%20nos%20trilhos%20-%20Casa%20do%20Codigo.pdf)
 
+Verify your installation for Rspec before run ``bundle exec rspec`` in any TDD folder on this project.
+
+Some OS install the rspec in a **_C:\User\\.local\share\gems_** and the Bundler cannot find the Rspec executable in this path.
+
+
 <!-- Padrão abaixo a ser copiado
 > [AUTOR, Autor. **Titulo**. Edição, Região. Editora, Ano.]()
 -->
