@@ -13,6 +13,24 @@ Verify your installation for Rspec before run ``bundle exec rspec`` in any TDD f
 
 Some OS install the rspec in a **_C:\User\\.local\share\gems_** and the Bundler cannot find the Rspec executable in this path.
 
+Tentative to create a class diagram with Mermaid to [exercise11.rb](https://github.com/henrique-souza/ruby_and_rails_exercises/blob/main/Udemy/modulo_02/exercise11.rb):
+
+```mermaid
+classDiagram
+    Person <|-- Physical_Person
+    Person <|-- Legal_Person
+    Person : + String name
+    Person : + String email
+    
+    class Physical_Person{
+        + String cpf
+        + speak_something()
+    }
+    class Legal_Person{
+        + String cnpj
+        + pay_provider()
+    }
+```
 
 <!-- Padrão abaixo a ser copiado
 > [AUTOR, Autor. **Titulo**. Edição, Região. Editora, Ano.]()
