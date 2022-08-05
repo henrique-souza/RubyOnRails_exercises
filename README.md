@@ -16,16 +16,16 @@
 
 ```mermaid
 classDiagram
-    Person <|-- Physical_Person
-    Person <|-- Legal_Person
+    Person <|-- PhysicalPerson
+    Person <|-- LegalPerson
     Person : +String name
     Person : +String email
     
-    class Physical_Person{
+    class PhysicalPerson{
         +String cpf
         +speak_something()
     }
-    class Legal_Person{
+    class LegalPerson{
         +String cnpj
         +pay_provider()
     }
