@@ -1,4 +1,4 @@
-## Class diagram with Mermaid to the [exercise11.rb](Udemy/modulo_02/exercise11.rb) below
+## Class diagram with Mermaid to the [exercise11.rb](/exercise11.rb) below
 
 ```mermaid
 classDiagram
