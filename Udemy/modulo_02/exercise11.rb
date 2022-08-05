@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# class diagram in ./ruby_and_rails_exercises/README.md
+# class diagram in ./exercise11.md
 #
 # class Person
 class Person
