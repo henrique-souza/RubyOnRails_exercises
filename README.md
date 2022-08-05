@@ -23,7 +23,7 @@ classDiagram
     
     class PhysicalPerson{
         +String cpf
-        +speak_something()
+        +say_something()
     }
     class LegalPerson{
         +String cnpj

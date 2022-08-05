@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# class diagram in ./ruby_and_rails_exercises/README.md
+#
 # class Person
 class Person
   # acessor methods 'getter and setter' to the Person
