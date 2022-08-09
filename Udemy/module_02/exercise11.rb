@@ -8,6 +8,7 @@ class Person
   attr_accessor :name, :email
 
   # class method
+  # not need instance
   def self.scream(text2)
     "#{text2}!!!!!!"
   end
