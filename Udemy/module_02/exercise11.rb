@@ -1,11 +1,16 @@
 # frozen_string_literal: true
 
-# class diagram in ./exercise11.md
+# class diagram in ./UML/exercise11.md
 #
 # class Person
 class Person
   # acessor methods 'getter and setter' to the Person
   attr_accessor :name, :email
+
+  # class method
+  def self.scream(text2)
+    "#{text2}!!!!!!"
+  end
 end
 
 # class Physical Person
@@ -21,6 +26,7 @@ end
 class LegalPerson < Person
   attr_accessor :cnpj
 
+  # instance method
   def pay_provider
     puts 'Paying provider...'
   end
@@ -29,6 +35,10 @@ end
 person = Person.new
 physical_person = PhysicalPerson.new
 legal_person = LegalPerson.new
+
+puts Person.scream('HELLO WORLD')
+
+puts
 
 # setters
 person.name = 'Henrique'
