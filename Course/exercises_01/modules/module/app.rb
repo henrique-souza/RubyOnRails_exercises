@@ -2,6 +2,7 @@
 
 require_relative 'payment'
 
+# module in a module
 include Payment::Master
 
 puts Payment::Master.paying
