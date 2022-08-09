@@ -4,6 +4,6 @@ require_relative 'payment'
 
 include Payment
 
-paying_card = Payment::Visa.new
+pay_card = Payment::Visa.new
 
-puts paying_card.paying
+puts pay_card.paying
