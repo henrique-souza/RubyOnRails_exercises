@@ -17,6 +17,8 @@ Trilhos**. Casa do Código, 2012.](https://github.com/free-educa/books/blob/main
 
 ##### Verify your installation for Rspec before run ``bundle exec rspec`` in any TDD folder on this project. Some OS install the rspec in a **_C:\User\\.local\share\gems_** and the Bundler cannot find the Rspec executable in this path. Use ```bundle info rspec``` to locate the rspec executable
 
+28/09/2022 - Parei na página 49 - [TDD](./TDD) 
+
 <!-- Padrão abaixo a ser copiado
 > [AUTOR, Autor. **Titulo**. Edição, Região. Editora, Ano.]()
 -->
