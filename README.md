@@ -15,7 +15,14 @@ Ruby**. Casa do Código, 2015.](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-%
 > [FUENTES, Vinícius Baggio. **Ruby on Rails. Coloque Sua Aplicação Web nos
 Trilhos**. Casa do Código, 2012.](https://github.com/free-educa/books/blob/main/books/Ruby%20on%20Rails%20-%20coloque%20sua%20aplicacao%20web%20nos%20trilhos%20-%20Casa%20do%20Codigo.pdf)
 
-##### Verify your installation for Rspec before run ``bundle exec rspec`` in any TDD folder on this project. Some OS install the rspec in a **_C:\User\\.local\share\gems_** and the Bundler cannot find the Rspec executable in this path. Use ```bundle info rspec``` to locate the rspec executable
+> Verify your installation for Rspec before run 
+```bundle exec rspec``` in any TDD folder on this project. Some OS install the rspec in a 
+```C:\User\.local\share\gem\ruby\{VERSION}\gems\rspec-{VERSION}``` 
+or 
+```C:\Users\{USER}\.local\share\gem\ruby\{VERSION}\specifications\exe\rspec``` 
+files and the Bundler cannot find the Rspec executable in this path. Use 
+```bundle info rspec``` 
+to locate the rspec executable
 
 28/09/2022 - Parei na página 49 - [TDD](./TDD) 
 
