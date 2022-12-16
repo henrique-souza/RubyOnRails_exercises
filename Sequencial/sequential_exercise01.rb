@@ -46,4 +46,6 @@ puts plural('Carro')
 
 # puts "Caneta".plural # imprime erro
 
+# nome_com_aspas_simples = 'Joana D'Arc' # não funciona
 
+# nome_com_aspas_duplas = "Joana D'Arc" # funciona
