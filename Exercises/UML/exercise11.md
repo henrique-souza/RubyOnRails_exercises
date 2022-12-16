@@ -1,4 +1,4 @@
-## Class diagram with Mermaid to the [exercise11.rb](../exercise11.rb) below
+# Class diagram with Mermaid to the [exercise11.rb](../exercise11.rb) below
 
 ```mermaid
 classDiagram
@@ -6,7 +6,7 @@ classDiagram
     Person <|-- LegalPerson
     Person : +String name
     Person : +String email
-    
+
     class PhysicalPerson{
         +String cpf
         +say_something()

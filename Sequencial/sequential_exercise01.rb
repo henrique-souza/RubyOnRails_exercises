@@ -27,6 +27,7 @@ puts 'Caneta'.plural # Canetas
 puts 'Carro'.plural # Carros
 # puts 2.plural # imprime erro, pois dessa vez estamos realmente
 # manipulando um metodo dentro de classe de tipo String
+
 puts '2'.plural # imprime '2s'
 puts '3.14'.plural # imprime '3.14s'
 
