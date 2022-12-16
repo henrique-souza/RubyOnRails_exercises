@@ -13,6 +13,3 @@ _c = a.select { |value| (value % 2).zero? } # seleciona apenas pares [2, 4]
 a.inject do |sum, value|
   sum + value
 end
-
-# pagina 17 antes de hashes
-
