@@ -12,7 +12,7 @@ idade = 24
 # idade * multiplicador # imprime um erro
 
 puts idade.class # imprime 'Integer'
-puts "\n"
+puts
 
 puts "Programa 02\n--"
 
@@ -46,6 +46,16 @@ puts plural('Carro')
 
 # puts "Caneta".plural # imprime erro
 
+puts
+
 # nome_com_aspas_simples = 'Joana D'Arc' # não funciona
 
-# nome_com_aspas_duplas = "Joana D'Arc" # funciona
+nome_com_aspas_duplas = "Joana D'Arc" # funciona
+idade_da_joana = 18
+
+# a instrução abaixo adiciona parênteses caso seja utilizado operador =
+# puts nome_com_aspas_duplas if (idade_da_joana = 18) #=> Joana D'Arc
+
+# A saída abaixo é interessante. Realmente demora um segundo pra sair a mensagem inteira
+# porém, o número 1 sai juntamente com a mensagem
+puts "#{sleep 1} Seja bem-vinda, #{nome_com_aspas_duplas}!" if idade_da_joana > 17 #=> 1 Seja bem-vinda, Joana D'Arc!
