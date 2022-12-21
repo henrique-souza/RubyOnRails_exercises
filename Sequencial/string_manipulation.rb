@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 puts "Programa 01\n--"
-idade = 24
+age = 24
 
 # idade = "24" # a linha 12 imprime 'String' caso esta nao esteja comentada
 # multiplicador = "2"
@@ -11,7 +11,7 @@ idade = 24
 
 # idade * multiplicador # imprime um erro
 
-puts idade.class # imprime 'Integer'
+puts age.class # imprime 'Integer'
 puts
 
 puts "Programa 02\n--"
@@ -32,8 +32,8 @@ puts '2'.plural # imprime '2s'
 puts '3.14'.plural # imprime '3.14s'
 
 # definindo metodo plural()
-def plural(palavra)
-  "#{palavra}s" # toda palavra que for digitada, sera adicionado s no final
+def plural(word)
+  "#{word}s" # toda palavra que for digitada, sera adicionado s no final
 end
 
 puts plural('Caneta') # chamando o metodo plural com os parametros
@@ -50,12 +50,12 @@ puts
 
 # nome_com_aspas_simples = 'Joana D'Arc' # não funciona
 
-nome_com_aspas_duplas = "Joana D'Arc" # funciona
-idade_da_joana = 18
+name_with_double_quotes = "Joana D'Arc" # funciona
+age = 18
 
 # a instrução abaixo adiciona parênteses caso seja utilizado operador =
 # puts nome_com_aspas_duplas if (idade_da_joana = 18) #=> Joana D'Arc
 
 # A saída abaixo é interessante. Realmente demora um segundo pra sair a mensagem inteira
 # porém, o número 1 sai juntamente com a mensagem
-puts "#{sleep 1} Seja bem-vinda, #{nome_com_aspas_duplas}!" if idade_da_joana > 17 #=> 1 Seja bem-vinda, Joana D'Arc!
+puts "#{sleep 1} Seja bem-vinda, #{name_with_double_quotes}!" if age > 17 #=> 1 Seja bem-vinda, Joana D'Arc!
