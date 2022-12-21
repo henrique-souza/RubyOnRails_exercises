@@ -2,9 +2,9 @@
 
 # reabrindo a classe String
 class String
-  def inverter_string
+  def reverse_string
     reverse
   end
 end
 
-puts 'Henrique'.inverter_string
+puts 'Henrique'.reverse_string

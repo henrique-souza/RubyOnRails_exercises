@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'Henrique'.object_id # => 60
 puts 'Henrique'.object_id # => 80
 

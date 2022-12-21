@@ -2,7 +2,7 @@
 
 puts "Programa 01\n"
 
-(0..9).each do |numbers|
+10.times do |numbers|
   puts "O valor lido foi: #{numbers}" # usando interpolação ao invés de atribuição " + numbers.to_s "
 end
 

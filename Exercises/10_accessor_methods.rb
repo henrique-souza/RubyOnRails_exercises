@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # class Pessoa
-class Pessoa
+class Person
   # método de acesso (tipo 'get' e 'set' do Java ou C#)
   attr_accessor :nome
 
@@ -14,7 +14,7 @@ class Pessoa
   # end
 end
 
-primeira_pessoa = Pessoa.new
+primeira_pessoa = Person.new
 
 # puts primeira_pessoa.imprimir_nome
 #

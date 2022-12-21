@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# Simbora aprender a usar Regex com Ruby
-
 # 'Do you like dogs?' =~ /like/
 
 if 'Do you like dogs?'.match(/like/)
@@ -10,20 +8,23 @@ else
   puts 'Not passed'
 end
 
-puts("\n")
+puts
 
-def contem_vogal(string)
+def vowel?(string)
   string =~ /[aeiou]/
 end
 
-puts contem_vogal('testando') #=> 1
+puts vowel?('testando') #=> 1
 
-puts("\n")
+puts
 
-def contem_numero(string)
+# Antes esta função estava nomeada como "contem_numeros" ou "has_number"
+# mas o LSP do Ruby recomendou mudar para "number?", o que resume as palavras
+# anteriores
+def number?(string)
   string =~ /\d/
   # /\d/ expressão regular para números de 0 a 9 ou [0-9]
 end
 
-puts contem_numero('Ano 2022') #=> 4
-puts contem_numero('O Bruce é preto e branco') #=> nil
+puts number?('Ano 2022') #=> 4
+puts number?('O Bruce é preto e branco') #=> nil

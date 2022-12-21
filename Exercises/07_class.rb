@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# classe Pessoa retornando uma fala
-class Pessoa
+# classe Person retornando uma fala
+class Person
   # def initialize
   #   puts 'Inicializando'
   # end
@@ -17,14 +17,14 @@ class Pessoa
   # def falar(texto)
   # setando uma mensagem padrão para o parâmetro 'texto'
   # def falar(texto = 'minha gente')
-  def falar(texto = 'minha gente', texto2 = 'Tudo bem?')
+  def speak(text = 'minha gente', salutation = 'Tudo bem?')
     # 'Olá, pessoal!'
     # "Olá, #{texto}!"
-    "Olá, #{texto}! #{texto2}"
+    "Olá, #{text}! #{salutation}"
   end
 end
 
-pessoa = Pessoa.new(5)
+pessoa = Person.new(5)
 
 # puts pessoa.falar # => Olá, pessoal!
 
@@ -32,5 +32,4 @@ pessoa = Pessoa.new(5)
 
 # puts pessoa.falar # => Olá, minha gente!
 
-puts pessoa.falar # => Olá, minha gente! Tudo bem?
-
+puts pessoa.speak # => Olá, minha gente! Tudo bem?
