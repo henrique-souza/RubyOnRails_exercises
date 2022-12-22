@@ -2,7 +2,7 @@
 
 1. Pagina 17 antes de hashes do livro do Mats
 
-2. Pagina 33 do livro do Lucas Souza
+2. Pagina 34 do livro do Lucas Souza
 
 3. Parei na página 49 - [TDD](./TDD)
 
