@@ -1,4 +1,4 @@
-# Class diagram with Mermaid to the [exercise11.rb](../exercise11.rb) below
+# Class diagram with Mermaid to the [11_inheritance.rb](../11_inheritance.rb) below
 
 ```mermaid
 classDiagram
