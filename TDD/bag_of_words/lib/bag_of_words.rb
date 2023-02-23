@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# bag of words class
 class BagOfWords
   attr_reader :words
 
