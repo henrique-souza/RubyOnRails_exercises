@@ -1,29 +1,19 @@
 # frozen_string_literal: true
 
-alunos = %w[André Sophia Laura]
+students = %w[André Sophia Laura Paulo]
 
-notas = [5, 6, 8]
+grades = [5, 9, 8, 7.5]
 
-# puts "#{alunos[0]} tirou nota #{notas[0]}"
-# puts "#{alunos[1]} tirou nota #{notas[1]}"
-# puts "#{alunos[2]} tirou nota #{notas[2]}"
-
-# Refatorando...
-alunos.each_with_index do |nome, indice|
-  nota = notas[indice]
-
-  notas[1] = 9
-  alunos[3] = 'Paulo'
-  notas[3] = 7.5
-
-  puts "#{nome} tirou nota #{nota}"
+students.each_with_index do |name, index|
+  grade = grades[index]
+  puts "#{name} tirou nota #{grade}"
 end
 
 puts
 
-puts "Esta turma possui #{alunos.length} participantes"
+puts "Esta turma possui #{students.length} participantes"
 
 # André tirou nota 5
-# Sophia tirou nota 6 >> 9
+# Sophia tirou nota 9
 # Laura tirou nota 8
 # Paulo tirou nota 7.5
