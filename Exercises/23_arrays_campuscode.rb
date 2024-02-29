@@ -12,9 +12,12 @@ notas = [5, 6, 8]
 alunos.each_with_index do |nome, indice|
   nota = notas[indice]
   notas[1] = 9
+  alunos[3] = 'Paulo'
+  notas[3] = 7.5
   puts "#{nome} tirou nota #{nota}"
 end
 
 # André tirou nota 5
-# Sophia tirou nota 6
+# Sophia tirou nota 6 >> 9 
 # Laura tirou nota 8
+# Paulo tirou nota 7.5
